@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mike Wall</title>
+
+    <link rel="shortcut icon" href="assets/profile.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b0fcef7cad.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="main-bg"></div>
+    <header>
+      <div class="header-left">
+        <img class="profile-image" src="./assets/profile.png" alt="profile image" />
+        <div class="profile-text">
+          <h1>Mike Wall</h1>
+          <div>Singer-Songwriter</div>
+          <div class="location">
+            <i class="fas fa-location-dot" title="Location"></i>
+            <span>Charleston, SC</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-right">
+        <nav>
+          <a href="#shows">Shows</a>
+          <div class="char-break">•</div>
+          <a href="#videos">Videos</a>
+          <div class="char-break">•</div>
+          <a href="mailto:contact@mikewall.music">Contact</a>
+          <div class="char-break">•</div>
+          <div class="socials">
+            <a href="https://www.instagram.com/mikewallmusic" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@mikewallmusic" title="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <!-- <a href="https://www.youtube.com/@mike_wall" title="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a> -->
+            <a href="https://linktr.ee/mikewallmusic" title="Linktree">
+              <i class="fa-brands fa-linktree"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="shows">
+        <h3 style="margin-top:0">Shows</h3>
+        <div>
+        <iframe
+          id="show-calendar"
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showTitle=0&mode=AGENDA&showNav=1&showDate=1&showCalendars=0&showTabs=1&showPrint=0&title&src=ZjBiOWQwMzczOTAyMjQ0YjJlMmQ5MDY3ZTIxNGFlYzY4N2NhNjI5N2M1YmE2YWIxODQzOTdkOTRiYmI3MWY4OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23ff6f6f"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+      </div>
+      </section>
+
+      <section id="videos">
+        <h3>Videos</h3>
+        <div class="videos-container">
+          <iframe src="https://youtube.com/embed/5CMZs0SmPnE?fs=1&rel=0&modestbranding=1" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="border:none;"></iframe>
+          <iframe src="https://youtube.com/embed/Uk7ax-_q1Ug?fs=1&rel=0&modestbranding=1" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="border:none;"></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright © <span id="copyright-year"></span></p>
+    </footer>
+    
+    <script src="./main.js"></script>
+  </body>
+</html>
